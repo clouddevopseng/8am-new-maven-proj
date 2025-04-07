@@ -1,5 +1,5 @@
 node {
-    stage('Download code from git scm') {
+    stage('Download code from git source code management') {
     git branch: 'dev', url: 'https://github.com/clouddevopseng/8am-new-maven-proj.git'
      }
      stage('Covert artifacts into war formate') {
